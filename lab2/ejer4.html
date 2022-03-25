@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio N°2</title>
+    <link rel="stylesheet" href="lab2diseño.css">
+</head>
+<body> 
+    <div id="Container">
+        <h1>Laboratorio N°2 Oscar Hurtado</h1>
+        <p id="ejer1">Ejercicio 4</p>
+        <br>
+        <div id="script">
+            <script>
+                let nota1=prompt('Ingrese la primera nota: ');
+                let nota2=prompt('Ingrese la segunda nota: ');
+                let nota3=prompt('Ingrese la tercera nota: ');
+
+                let suma=parseInt(nota1)+parseInt(nota2)+parseInt(nota3)
+                let promedio=(suma/3);
+                
+                if(promedio >=4){
+                    document.write(' Usted tiene promedio REGULAR');
+                }else{
+                    document.write('Usted está REPROBADO')
+                }
+               
+                          
+            </script>
+        </div>
+    </div>                       
+</body>
+</html>
